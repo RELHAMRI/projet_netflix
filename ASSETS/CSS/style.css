@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Moderustic", sans-serif;
+}
+
+
+body {
+    background: url("/ASSETS/IMG/FR-fr-20240820-TRIFECTA-perspective_WEB_f56471c9-e873-4b37-af43-67f29e44de31_large.jpg") center/cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.781);
+    height: 100vh;
+}
+
+header nav {
+    margin: 0 auto;
+    width: 70%;
+    align-items:center;
+}
+
+nav img {
+    width: 40%;
+}
+
+select {
+    height: 30px;
+    width: 120px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.452);
+    color: white;
+    font-size: 16px;
+}
+
+option {
+    background-color: white;
+    color: black;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a {
+    margin-left: 10px;
+    padding: 6px;
+    background-color: rgb(229,9,20);
+    text-decoration: none;
+    color: white;
+    border-radius: 3px;
+    font-size: 16px;
+}
+
+section {
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+}
+
+section h1 {
+    margin-bottom: 20px;
+    font-size: 65px;
+    width: 35%;
+    margin: 0 auto;
+}
+
+section p:first-of-type {
+    margin-bottom: 30px;
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-family: "Roboto Condensed", sans-serif;
+}
+
+section p:last-of-type {
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 16px;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section input {
+    margin-top:20px;
+    padding: 15px;
+    border-radius: 5px;
+    width: 20%;
+    background-color:rgb(22,22,21);
+    color: white;
+}
+
+section input::placeholder {
+    color: rgb(206, 193, 193);
+}
+
+section a {
+    background-color: rgb(229,9,20);
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-left: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
